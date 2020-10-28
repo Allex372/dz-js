@@ -205,20 +205,20 @@
 
 
 
-/////3-----------------------///////
-// let x = prompt('colour');
-// let isRoadClear = confirm('Any car?')
-//
-// if (x === "green" && isRoadClear===false) {
-//     console.log('colour green = ' + 'GO!');
-// }else if (x === "green" && isRoadClear===true){
-//     console.log('colour green = '+'BUT WAIT FOR A CAR DRIVE!');
-// }else if(x === "yellow" && isRoadClear===true){
-//     console.log('colour yellow =' +"WAIT!");
-// }else if(x === "yellow" && isRoadClear ===false){
-//     console.log('Too early - WAIT!')
-// }else if(x==='red'&& isRoadClear===false){
-//     console.log('STOP!EARLY!')
-// }else if (x==='red'&&isRoadClear===true){
-//     console.log('STOP AND WAIT!')
-// }else console.log('Do anyway')
+///3-----------------------///////
+let colour = prompt('colour');
+let isRoadClear = confirm('Any car?')
+
+if (colour === "green" && !isRoadClear) {
+    console.log('colour green = ' + 'GO!');
+}else if (colour === "green" && isRoadClear){
+    console.log('colour green = '+'BUT WAIT FOR A CAR DRIVE!');
+}else if(colour === "yellow" && isRoadClear){
+    console.log('colour yellow =' +"WAIT!");
+}else if(colour === "yellow" && !isRoadClear){
+    console.log('Too early - WAIT!')
+}else if(colour ==='red'&& !isRoadClear){
+    console.log('STOP!EARLY!')
+}else if (colour ==='red'&& isRoadClear){
+    console.log('STOP AND WAIT!')
+}else console.log('Do anyway')
