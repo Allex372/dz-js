@@ -166,6 +166,10 @@
 // let age = prompt('age');
 // alert('Hello '+ name+' '+surname+' '+ 'we are so happy thet your age is '+ age)
 
+
+
+
+////1-----------------/////////
 // let x = prompt('x');
 // let y = prompt('y');
 // let z = prompt('z')
@@ -187,7 +191,7 @@
 // }
 
 
-
+/////2-----------------//////////
 // let x = prompt('colour');
 //
 // if (x === "green" ){
@@ -201,7 +205,7 @@
 
 
 
-
+/////3-----------------------///////
 // let x = prompt('colour');
 // let isRoadClear = confirm('Any car?')
 //
