@@ -170,10 +170,8 @@
 // let y = prompt('y');
 // let z = prompt('z')
 //
-//
-// // var max =Math.max(x,y,z);
-// // document.write(max);
-//
+
+
 // if (x>y && x>z && y>z){
 //     document.write('z='+z,"y="+y,'x='+x)
 // }else if(x>y && x>z && z>y){
@@ -188,3 +186,35 @@
 //     console.log('y= '+y,'x= '+x,'z= '+z)
 // }
 
+
+
+// let x = prompt('colour');
+//
+// if (x === "green" ){
+//     console.log('colour green = '+'GO!');
+// }else if(x === "yellow"){
+//     console.log('colour yellow =' +"WAIT!");
+// }else if(x === "red"){
+//     console.log('colour red = '+"STOP!");
+// }else console.log("DO ANYWAY")
+//
+
+
+
+
+// let x = prompt('colour');
+// let isRoadClear = confirm('Any car?')
+//
+// if (x === "green" && isRoadClear===false) {
+//     console.log('colour green = ' + 'GO!');
+// }else if (x === "green" && isRoadClear===true){
+//     console.log('colour green = '+'BUT WAIT FOR A CAR DRIVE!');
+// }else if(x === "yellow" && isRoadClear===true){
+//     console.log('colour yellow =' +"WAIT!");
+// }else if(x === "yellow" && isRoadClear ===false){
+//     console.log('Too early - WAIT!')
+// }else if(x==='red'&& isRoadClear===false){
+//     console.log('STOP!EARLY!')
+// }else if (x==='red'&&isRoadClear===true){
+//     console.log('STOP AND WAIT!')
+// }else console.log('Do anyway')
