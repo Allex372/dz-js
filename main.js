@@ -209,9 +209,9 @@
 let colour = prompt('colour');
 let isRoadClear = confirm('Any car?')
 
-if (colour === 'green' && !isRoadClear) {
+if (colour === 'green' && isRoadClear) {
     console.log('colour green = ' + 'GO!');
-}else if (colour === 'green' && isRoadClear){
+}else if (colour === 'green' && !isRoadClear){
     console.log('colour green = '+'BUT WAIT FOR A CAR DRIVE!');
 }else if(colour === 'yellow' && isRoadClear){
     console.log('colour yellow =' +'WAIT!');
